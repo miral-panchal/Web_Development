@@ -1,0 +1,78 @@
+body {
+  margin: 5%;
+}
+
+#header {
+  display: table-row;
+}
+
+#header h1 {
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  font-size: 300%;
+}
+
+#header img {
+  display: table-cell;
+  height: 75px;
+  float: left;
+}
+
+#header a {
+  display: table-cell;
+  text-align: center;
+  float: right;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: darkblue;
+  border-radius: 6px;
+  color: #fff;
+  width: 100px;
+}
+
+#mainsection {
+  display: table-row;
+}
+
+#mainsection nav {
+  display: table-cell;
+}
+
+nav ul{
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 480px;
+}
+
+nav ul li{
+  background-color: darkblue;
+  padding: 6px;
+  border-radius: 8px;
+  color: #fff;
+  margin: 0px 20px 10px 20px;
+  text-align: center;
+  width: 200px;
+}
+
+#mainsection section {
+  display: table-cell;
+  float: right;
+  margin-top: 40px;
+}
+
+#chat{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: white;
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+#chat img{
+  width: 30%;
+  height: 30%;
+}

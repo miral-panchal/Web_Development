@@ -1,0 +1,35 @@
+* 
+{
+	font-family: Arial, Veranda, sans-serif;
+	color:#665544;
+	text-align: center;
+}
+
+body 
+{
+	background-image: url("https://ravishly.com/sites/default/files/landscape-1456483171-pokemon2.jpg");
+}
+
+#nav, #feature, #entry, .article, #footer 
+{
+	background-color: #efefef;
+	margin-top: 20px;
+	padding: 10px 0px 5px 0px;
+}
+
+#feature, .article, #entry 
+{
+	height: 100px;
+}
+
+li 
+{
+	display: inline;
+	padding; 5px;
+}
+
+.atricle_grid_4
+{
+	border: 1px solid red ;
+	margin-left: 2%
+}
